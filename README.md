@@ -17,8 +17,8 @@ BEGIN USER SETTINGS / END USER SETTINGS comments.
 
 Available test cases
 --------------------
-Three simple test cases are contained in separate directories under "data". 
-Set the "name_dir" variable in "FFT_NLIE.m"  to the appropriate directory.
+A simple test cases is contained in a directory under "data". 
+Set the "name_dir" variable in "FFT_NLIE.m" to the appropriate directory.
 
 User-defined test cases
 -----------------------
@@ -26,11 +26,11 @@ Follow the instuctions given in "README.txt" inside the "data" directory.
 
 Results
 --------------------
-Th inductance value is shown in the Command Window.  
+The inductance value is shown in the Command Window.  
 
 Credits
 --------------------
-If you use FFT_NLIE, please consider citing:
+If you use FFT-NLIE, please consider citing:
 
  [1] [R. Torchio, "A Volume PEEC Formulation Based on the Cell Method for Electromagnetic Problems From Low to High Frequency," in IEEE Transactions on Antennas and Propagation, vol. 67, no. 12, pp. 7452-7465, Dec. 2019, doi: 10.1109/TAP.2019.2927789](https://ieeexplore.ieee.org/document/8764572)
 
@@ -40,10 +40,10 @@ If you use FFT_NLIE, please consider citing:
  
 and FFT-FFT_NLIE itself
 
- [4] R. Torchio, "FFT-FFT_NLIE toolbox", https://github.com/UniPD-DII-ETCOMP/FFT-FFT_NLIE
+ [4] R. Torchio, "FFT-NLIE toolbox", https://github.com/UniPD-DII-ETCOMP/FFT-FFT-NLIE
  
-Contacts & Authors
+Contacts & Author
 -----------------------
-For any questions or need help to solve your problem, please contact us
+For any questions or need help to solve your problem, please contact me
 
 Riccardo Torchio (riccardo.torchio@unipd.it)
