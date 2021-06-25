@@ -42,7 +42,7 @@ and FFT-FFT_NLIE itself
 
  [4] R. Torchio, "FFT-NLIE toolbox", https://github.com/UniPD-DII-ETCOMP/FFT-NLIE
  
-Contacts & Author
+Contacts & Authors
 -----------------------
 For any questions or need help to solve your problem, please contact me
 
