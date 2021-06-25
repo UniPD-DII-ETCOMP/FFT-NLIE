@@ -250,11 +250,13 @@ Joutm(idxFm) = vsolm(1:num_currm) ; % return to global variables
 [~,a_dof2] = post_processing_H(Joutm,xyz,d,Ae1x,Ae1y,Ae1z,opCirculantK_all);
 Wm=0.5*0.5*sum(((vsol(1:num_curr)).*conj(a_dof(idxF)+a_dof2(idxF))));
 L2=2*2*Wm/(abs(val_c(1))^2);
+disp(' ')
 disp('-------------------------------------------------------------------')
 disp(' ')
 disp(['  Coil Inductance ' ,num2str(L2),' H [with magnetic core]']);
 disp(' ')
 disp('-------------------------------------------------------------------')
+disp(' ')
 %%
 %% POST PROCESSING
 %%
