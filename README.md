@@ -1,4 +1,4 @@
-<img src="ind.PNG" width="280" height="280"><img src="JM.PNG" width="280" height="280"><img src="H.PNG" width="280" height="280">    
+<img src="ind.PNG" width="270" height="270"><img src="JM.PNG" width="270" height="270"><img src="H.PNG" width="270" height="270">    
 
 # FFT-Non_Linear_Inductance_Extractor 
 
