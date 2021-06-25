@@ -40,7 +40,7 @@ If you use FFT-NLIE, please consider citing:
  
 and FFT-FFT_NLIE itself
 
- [4] R. Torchio, "FFT-NLIE toolbox", https://github.com/UniPD-DII-ETCOMP/FFT-FFT-NLIE
+ [4] R. Torchio, "FFT-NLIE toolbox", https://github.com/UniPD-DII-ETCOMP/FFT-NLIE
  
 Contacts & Author
 -----------------------
