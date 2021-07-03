@@ -4,7 +4,6 @@ clear global
 clear
 clc
 restoredefaultpath
-warning on
 format short
 warning off
 delete log_Green_K.txt
@@ -87,7 +86,7 @@ for ii = 1:Nmat
     elseif strcmp(Ind(ii).tag,'mag')
         idxVm=[idxVm;Ind(ii).ind];  
         BH_tab=Ind(ii).BH_tab;
-    elseif strcmp(Ind(ii).tag,'port')
+    elseif strcmp(Ind(ii).tag,'terminal')
         idxVe=[idxVe;Ind(ii).ind]; 
         rhoVoxel(Ind(ii).ind,1)=Ind(ii).rho;
         rhomin=min([rhomin,Ind(ii).rho]);

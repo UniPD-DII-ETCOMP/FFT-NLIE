@@ -11,19 +11,19 @@ How to create a new user-defined test-case:
     model_name='pcb';         % name of the model
     %
     stl_files(1).name = 'pcb_coil.stl'; % name of the first stl file to load
-    stl_files(1).tag = 'cond';          % tag for the material (write 'cond' for condutive media, "port" if you want to impose the current, "mag" for magnetic media )
-    stl_files(1).cur=[];                % injected current value, only active if stl_files(1).tag='port';
+    stl_files(1).tag = 'cond';          % tag for the material (write 'cond' for condutive media, "terminal" if you want to impose the current, "mag" for magnetic media )
+    stl_files(1).cur=[];                % injected current value, only active if stl_files(1).tag='terminal';
     stl_files(1).rho=1/57e6;            % resistivity of the medium
     stl_files(1).BHcurve =[];           % BH curve, only active if stl_files(1).tag="mag"; 
     %
-    stl_files(2).name = 'pcb_port1.stl'; % name of the second stl file to load
-    stl_files(2).tag = 'port';
+    stl_files(2).name = 'pcb_terminal1.stl'; % name of the second stl file to load
+    stl_files(2).tag = 'terminal';
     stl_files(2).cur=1; % current value in ampere
     stl_files(2).rho=1/57e6;
     stl_files(1).BHcurve =[];
     %
-    stl_files(3).name = 'pcb_port2.stl';
-    stl_files(3).tag = 'port';
+    stl_files(3).name = 'pcb_terminal2.stl';
+    stl_files(3).tag = 'terminal';
     stl_files(3).cur=-1;
     stl_files(3).rho=1/57e6;
     stl_files(1).BHcurve =[];
