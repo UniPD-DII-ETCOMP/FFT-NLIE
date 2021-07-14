@@ -122,6 +122,15 @@ disp('----COMPUTING INCIDENCE--------------------------------')
 mytic=tic;
 [Ae,Aee,idxF,idxFx,idxFy,idxFz,Ae1x,Ae1y,Ae1z] = ...
     incidence_matrix3(Kt,[L M N],idxVe);
+
+    ind=zeros(L*M*N,1);
+    ind(ind_c)=val_c;
+    ind=ind(idxVe);
+    ind=setdiff(1:length(idxVe),find(ind));
+    Aee(max(ind),:)=[];
+    idxVe(max(ind))=[];
+    K = length(idxVe); %number of non-empty voxels
+    
 [~,Amm,idxFm,idxFxm,idxFym,idxFzm,~,~,~] = ...
     incidence_matrix3(Kt,[L M N],idxVm);
 disp([' Number of DoFs (cond): ', num2str(size(Aee,1)+size(Aee,2))])
