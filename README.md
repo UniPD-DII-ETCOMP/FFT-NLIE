@@ -41,10 +41,12 @@ If you use FFT-NLIE, please consider citing:
  
 and FFT-FFT_NLIE itself
 
- [4] R. Torchio, "FFT-NLIE toolbox", https://github.com/UniPD-DII-ETCOMP/FFT-NLIE
+ [4] R. Torchio and F. Lucchini, "FFT-NLIE toolbox", https://github.com/UniPD-DII-ETCOMP/FFT-NLIE
  
 Contacts & Authors
 -----------------------
-For any questions or need help to solve your problem, please contact me
+For any questions or need help to solve your problem, please contact us
 
 Riccardo Torchio (riccardo.torchio@unipd.it)
+
+Francesco Lucchini (francesco.lucchini@studenti.unipd.it)
