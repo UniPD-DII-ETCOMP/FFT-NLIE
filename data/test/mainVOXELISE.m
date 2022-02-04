@@ -46,6 +46,11 @@ stl_files(4).BHcurve=  [0	        0
                         188487.757	2.2
                         267930.364	2.3
                         347507.836	2.4];
+% mu0=4*pi*1e-7;
+% mur=2200;
+% HH=linspace(0,347507.836,10).';
+% stl_files(4).BHcurve=  [HH,HH*mu0*mur];
+% stl_files(4).mur=2200;                    
 % to scale a stl file from any unit to meters
 scal_geomery.x=1; scal_geomery.y=1; scal_geomery.z=1;
 % Box 
