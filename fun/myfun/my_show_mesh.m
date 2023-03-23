@@ -21,7 +21,7 @@ for ii = 1:max(VP(:))
 P0(ii,:)=idx2triplet(ii,L+1,M+1,N+1).*[dx dy dz];
 end
 figure
-hexa_mesh2(VP,P0,0.3,'r')
+hexa_mesh2(VP,P0,1,'r')
 view(3)
 title('mesh')
 axis off
